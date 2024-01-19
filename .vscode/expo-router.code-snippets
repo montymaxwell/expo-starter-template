@@ -1,0 +1,25 @@
+{
+    "Route": {
+		"scope": "typescriptreact",
+		"prefix": "page",
+		"body": [
+            "import {",
+            "\tView",
+            "} from 'react-native'",
+            "import { Stack } from 'expo-router'",
+            "import { SafeAreaView } from 'react-native-safe-area-context'",
+            "",
+			"function ${1:Page}() {",
+			"\treturn (",
+			"\t\t<SafeAreaView>",
+            "\t\t\t<Stack.Screen options={{ title: '${1:Page} Route' }} />",
+            "\t\t\t<View>${2}</View>",
+            "\t\t</SafeAreaView>",
+			"\t)",
+			"}",
+			"",
+			"export default ${1:Page}"
+		],
+		"description": "Montys' Route markup for Expo App Router"
+	}
+}
